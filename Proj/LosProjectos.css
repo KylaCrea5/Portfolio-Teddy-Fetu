@@ -1,0 +1,106 @@
+@font-face {
+    font-family: HardPixel;
+    src: url("/Font/HardPixel/Hardpixel.OTF");
+}
+@font-face {
+    font-family: Ipixel;
+    src: url("/Font/i_pixel_u/I-pixel-u.ttf");
+}
+@font-face {
+    font-family: Mario;
+    src: url("/Font/mario_kart_ds/Mario-Kart-DS.ttf");
+}
+@font-face {
+    font-family: Goth;
+    src: url("/Font/gothicpixels/GothicPixels.ttf");
+}
+
+body{
+    font-size: 20%;
+    height: 150%;
+}
+
+#warp{
+    height: 220%;
+    width: 70%;
+    margin-top: -1%;
+    margin-left: 15%;
+    background-color: #1d2027;
+}
+
+#TitreBot{
+    float: left;
+    width: 70%;
+    height: 100%;
+    margin-top: -5%;
+    margin-left: 14%;
+}
+
+#Titre{
+    float: left;
+    width: 100%;
+    height: 20%;
+    background-color: #282b33;
+}
+
+#Margin{
+    width: 100%;
+    height: 20.15%;
+    background-color: #171719;
+}
+
+p{
+    float: left;
+    font-size: 2.05vh;
+    font-family: HardPixel;
+    color: #7f7c76;
+}
+
+h1{
+    float: left;
+    font-size: 3.5vh;
+    font-family: HardPixel;
+    position: absolute;
+}
+
+#Pixel{
+    position: absolute;
+    transition: opacity 300ms;
+    width: 15%;
+}
+
+#PixelSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+    width: 17%;
+}
+
+#Proj{
+    position: absolute;
+    transition: opacity 300ms;
+    width: 15%;
+}
+
+#ProjSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+    width: 15%;
+}
+
+#Jar{
+    position: absolute;
+    transition: opacity 300ms;
+    width: 15%;
+}
+
+#JarSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+    width: 15%;
+}

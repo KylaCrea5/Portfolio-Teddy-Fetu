@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio Kyla/ Morpion</title>
+        <link rel="icon" href="Rose de Kyla .png">
+        <link rel="stylesheet" href="LosProjectos.css">
+        <link href="Font/Hardpixel.OTF">
+    </head>
+    
+    <body style="background-color: #21356c;">
+        <div id="warp" style="height: 146%;">
+            <div id="Titre" style="height: 25%;">
+                <img id="TitreBot" src="Morp/MorpT.png" style="margin-left: 15%; margin-top: -1%;">
+            </div>
+            <div id="Margin" style="height: 25.15%;"></div>
+
+            <p style="margin-left: 18.5%; margin-top: 2%;">Programme codee en Python en Poo avec la Librairie Pygame sur Pycharm</p>
+
+            <h1 style="margin-left:2%; margin-top: 13%;"><font color="#142450">Un Croix Et Un Cercle</font></h1>
+            <p style="margin-left: 2%; margin-top: 17.5%;">Ce Projet est un Morpion (Tic Tac Toe) est un <br>
+                projet fait en POO, ce qui a rendu le Programme <br>
+                personnalisable (symbole et grille), il a aussi <br>
+                une interface graphique en Pycharm, ce qui permet <br>
+                de jouer avec d'autre personne. 
+            </p>
+            <img src="Morp/MorpCode.png" style="margin-top: 9.5%; width: 40%; margin-right: 2%; float:right">
+
+            <h1 style="margin-left: 2%; margin-top: 42% "><font color="#142450">Contre Qui Jouer ?</font></h1>
+            <p style="margin-left: 2%; margin-top: 31.5%;">Le Programme étant codé en POO, il a été simple <br>
+                d'installé une IA, codé avec un principe de Min-Max <br>
+                et avec un système de difficulté allant 1 a 9, <br>
+                les nombre de la difficulté correspond au nombre de <br>
+                coup possible, étant donné que il y a 9 case, <br>
+                la 9eme difficulté est en principe, imbattable. 
+            </p>
+            <img src="Morp/MorpEgal.png" style="float: right; margin-top: 15%; margin-right: 1%; width: 25%;">
+            <img src="Morp/MorpIA.png" style="float: right; margin-top: 15%; margin-right: 1%; width: 25%;">
+
+            <h1 style="float:left; margin-top: 66%; margin-left: 29%;"> <font color="#142450">Conclusion</font></h1>
+            <p style="margin-left: 2%; margin-right: 2%; margin-top: 14.5%;">Ce Programme a était fait en classe de Terminal et était le projet qui a été un des plus laborieux mais aussi un des plus intéressant et agréable a faire avec une sensation d'évolution. Il m'a beaucoup apporté sur le fonctionnement de la POO et sur comment faire et ce fus aussi la premier fois que j'ai touché aux IA et ça ma beaucoup passionné d'y touché et j'ai aussi touché a de l'interface graphique a l'aide de Pygame, un programme en apparence simple mais qui a permis de touché a un peu tout.</p>
+
+            <a href="Fate.html" onmouseover="HoverIcon('Pixel','PixelSouri')" onmouseout="PasHover('Pixel','PixelSouri')">
+                <img src="suite/Gauche/Fate.png" id="Pixel" style="opacity: 1; margin-top: 80.5%; margin-left: -53.25%;"> 
+                <img src="suite/Gauche/Fatesus.png" id="PixelSouri" style="opacity: 0; margin-top: 80%; margin-left: -53.25%;">
+            </a>
+
+            <a href="../Projet.html" onmouseover="HoverIcon('Proj','ProjSouri')" onmouseout="PasHover('Proj','ProjSouri')">
+                <img src="suite/Accueil.png" id="Proj" style="opacity: 1; margin-top: 80.5%; margin-left: -26.25%;"> 
+                <img src="suite/Accueilsus.png" id="ProjSouri" style="opacity: 0; margin-top: 80%; margin-left: -26.25%;">
+            </a>
+
+            <a href="">
+                <img src="suite/Droite/Game.png" id="Jar" style="opacity: 1; margin-top: 80.5%; margin-left: -4.25%;">
+            </a>
+
+        </div>
+
+        <script>
+            function HoverIcon(icon, iconplus) {
+                document.getElementById(icon).style.opacity = 0;
+                document.getElementById(iconplus).style.opacity=1;
+            }
+            function PasHover(icon, iconplus) {
+                document.getElementById(icon).style.opacity = 1;
+                document.getElementById(iconplus).style.opacity=0;
+            }
+
+        </script>
+    </body>
+</html>
