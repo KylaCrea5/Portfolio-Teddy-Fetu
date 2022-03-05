@@ -1,0 +1,564 @@
+@font-face {
+    font-family: HardPixel;
+    src: url("Font/HardPixel/Hardpixel.OTF");
+}
+@font-face {
+    font-family: Ipixel;
+    src: url("Font/i_pixel_u/I-pixel-u.ttf");
+}
+@font-face {
+    font-family: Mario;
+    src: url("Font/mario_kart_ds/Mario-Kart-DS.ttf");
+}
+@font-face {
+    font-family: Goth;
+    src: url("Font/gothicpixels/GothicPixels.ttf");
+}
+
+body::-webkit-scrollbar {display: none;} 
+body {overflow-x: hidden;}
+
+body{
+    width: 98%;
+    height: 100%;
+    font-size: 20%;
+    background-color: aquamarine;
+}
+
+header{
+    width: 111.5%;
+    height: 16%;
+    margin-top: -5%;
+    margin-left: -10%;
+    font-size: 75%;
+    background-color: #373c52;
+}
+
+#Titre{
+    float: left;
+    max-width: 15%;
+    height: auto;
+}
+
+
+#nav {
+    float: right;
+    margin-right: 4%;
+    margin-top: 1%;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav li {
+    display: inline-block;
+    margin-left: 1.65vw;
+    padding-top: 1.5vh;
+    font-family: Ipixel;
+    font-size: 3vh;
+    position: relative;
+}
+
+#nav a {
+    color: #e3e3e3;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav a:hover {
+    color: #855add;
+    transition: all 300ms;
+}
+
+#warp{
+    width: 102.5%;
+    height: 100.5%;
+    margin-top: -1%;
+    margin-left: -1%;
+    background-size: 115%;
+    background-image: url('Alloo/bg.gif');
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+}
+
+
+#footer{
+    position: relative;
+    width: 102.5%;
+    height: 20%;
+    margin-left: -1%;
+    background-color: #282b33;
+}
+
+#Musique{
+    margin-left: 0.5%;
+    font-family: Ipixel;
+    font-size: medium;
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+
+p{
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-bottom: -4%;
+  }
+
+#Skilsong{
+    margin-right: 5%;
+    margin-top: 7%;
+    width: 47%;
+    height: 12%;
+
+}
+
+#Skilsong::-webkit-media-controls-panel{
+    background-image: url(Alloo/Hornet.png);
+    background-position-y: 70%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#Pale{
+    margin-top: 1%;
+    width: 46%;
+    height: 12%;
+}
+
+#Pale::-webkit-media-controls-panel{
+    background-image: url(Alloo/Pale\ King.png);
+    background-position-y: 77%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#Snow{
+    margin-top: 1%;
+    width: 47.5%;
+    height: 12%;
+}
+
+#Snow::-webkit-media-controls-panel{
+    background-image: url("Alloo/Lapin.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 50%;
+}
+
+#Stardust{
+    margin-top: 1;
+    width: 45%;
+    height: 12%;
+}
+
+#Stardust::-webkit-media-controls-panel{
+    background-image: url("Alloo/Canapé\ espace.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 29%;
+}
+
+
+#Crédit{
+    width: 40%;
+    height: 90%;
+    float: right;
+    margin-top: 1%;
+
+}
+
+#LienGit{
+    position: relative;
+    text-decoration: none;
+    float: right;
+    margin-right: 17%;
+}
+
+#Git{
+    position: absolute;
+    transition: opacity 300ms;
+}
+
+#GitSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+
+#LienInd{
+    position: relative;
+    text-decoration: none;
+    float: right;
+    margin-right: 10%;
+}
+
+#In{
+    position: absolute;
+    transition: opacity 300ms;
+}
+
+#InSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+#LienCV{
+    position: relative;
+    text-decoration: none;
+    float: left;
+    margin-top: 37%;
+    margin-left: -41%;
+}
+
+#CV{
+    position: absolute;
+    transition: opacity 300ms;
+}
+
+#CVSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+
+#LienCV{
+    position: relative;
+    text-decoration: none;
+    float: left;
+    margin-top: 39.5%;
+    margin-left: -41%;
+}
+
+#CV{
+    position: absolute;
+    transition: opacity 300ms;
+}
+
+#CVSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+#LienConct{
+    position: relative;
+    text-decoration: none;
+    float: left;
+    margin-top: 39.5%;
+    margin-left: -31%;
+}
+
+#Cont{
+    position: absolute;
+    transition: opacity 300ms;
+}
+
+#ContSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+#credSkil{
+    transition: all 300ms;
+    color:#a73354;
+}
+
+#credSkil:hover{
+    text-decoration: none;
+    color: #af1843;
+    transition: all 300ms;
+}
+
+#credHollow{
+    transition: all 300ms;
+    color:#c0c5c9;
+}
+
+#credHollow:hover{
+    text-decoration: none;
+    color: #0a0a0a;
+    transition: all 300ms;
+}
+
+#credOmorisn{
+    transition: all 300ms;
+    color:#e6d2e6;
+}
+
+#credOmorisn:hover{
+    text-decoration: none;
+    color: #5d25cc;
+    transition: all 300ms;
+}
+
+#credOmorist{
+    transition: all 300ms;
+    color:#54378f;
+}
+
+#credOmorist:hover{
+    text-decoration: none;
+    color: #5d25cc;
+    transition: all 300ms;
+}
+
+#Teddypro{
+    transition: all 300ms;
+    color: #afa5fc;
+}
+
+#Teddypro:hover{
+    text-decoration: none;
+    color: #4c38e4;
+    transition: all 300ms;
+}
+
+
+h1{
+    float: right;
+    margin-right: 1%;
+    font-size: medium;
+    font-family: Ipixel;
+    color: rgb(26, 16, 31);
+}
+
+h2{
+    float: left;
+    margin-left: 1%;
+    font-family: HardPixel;
+    color: #e6d2e6;
+}
+
+h3{
+    float: left;
+    margin-right: 15%;
+    font-size: 120%;
+    font-family: Ipixel;
+    color: #9e91fa;
+}
+
+#AboutKyla{
+    transition: all 300ms;
+    color: #800606;
+}
+
+#AboutKyla:hover{
+    text-decoration: none;
+    color: #2ca7a7;
+    transition: all 300ms;
+}
+
+#Text{
+    float: left;
+    margin-left: 10%;
+    margin-top: 9%;
+    height: 40%;
+    width: 45%;
+    background-image: url("Alloo/AccueilEcrit.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Descri{ 
+    float: left;
+    margin-left: 2%;
+    margin-top: -3%;
+    height: 80%;
+    width: 68%;
+    background-image: url("Alloo/Aboutme.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Pour{
+    float: left;
+    font-size: large;
+    margin-left: 9%;
+    margin-top: 8%;
+    height: 15%;
+    width: 35%;
+}
+
+#LesContact{
+    float: left;
+    font-size: medium;
+    margin-left: -30%;
+    margin-top: 16%;
+    width: 30%;
+    height: 35%;
+}
+
+#Mail{
+    position: relative;
+    text-decoration: none;
+    float: left;
+    margin-left: 0%;
+    margin-top: -3%;
+    height: 15%;
+    width: 12%;
+}
+
+#Tel{
+    position: relative;
+    text-decoration: none;
+    float: left;
+    margin-left: -79%;
+    margin-top: 11%;
+    height: 15%;
+    width: 12%;
+}
+
+
+
+/* Projet toute les page et Css */
+
+#LesProjets{
+    float: left;
+    width: 90%;
+    height: 85%;
+    margin-left:4% ;
+    margin-top:2%;
+}
+
+#BotD{
+    position: absolute;
+    transition: opacity 300ms;
+    width: 20%;
+    height: 25%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+#BotDSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+    width: 25%;
+    height: 30%;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+#JJarre{
+    position: absolute;
+    transition: opacity 300ms;
+    width: 20%;
+    height: 25%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+#JJarreSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+    width: 22%;
+    height: 30%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+#Lab{
+    position: absolute;
+    transition: opacity 300ms;
+    width: 20%;
+    height: 25%;
+    margin-left: 56%;
+    margin-top: 3%;
+}
+
+#LabSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+    width: 22%;
+    height: 30%;
+    margin-left: 55%;
+    margin-top: 2%;
+}
+
+#FateJ{
+    position: absolute;
+    transition: opacity 300ms;
+    width: 20%;
+    height: 25%;
+    margin-left: 5.5%;
+    margin-top: 23%;
+}
+
+#FateJSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+    width: 25%;
+    height: 30%;
+    margin-left: 4%;
+    margin-top: 22%;
+}
+
+#Morp{
+    position: absolute;
+    transition: opacity 300ms;
+    width: 20%;
+    height: 25%;
+    margin-left: 30.5%;
+    margin-top: 23%;
+}
+
+#MorpSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+    width: 22%;
+    height: 30%;
+    margin-left: 30%;
+    margin-top: 22%;
+}
+
+#Game{
+    position: absolute;
+    transition: opacity 300ms;
+    width: 20%;
+    height: 25%;
+    margin-left: 56%;
+    margin-top: 23%;
+}
+
+#Pix{
+    position: absolute;
+    transition: opacity 300ms;
+    width: 28%;
+    height: 7%;
+    margin-top: 40.5%;
+    margin-left: 27%;
+}
+
+#PixSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+    width: 30%;
+    height: 8%;
+    margin-top: 40.5%;
+    margin-left: 26%;
+}
