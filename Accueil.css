@@ -19,7 +19,7 @@ body::-webkit-scrollbar {display: none;}
 body {overflow-x: hidden;}
 
 body{
-    width: 98%;
+    width: 100%;
     height: 100%;
     font-size: 20%;
     background-color: aquamarine;
@@ -78,7 +78,7 @@ header{
     height: 100.5%;
     margin-top: -1%;
     margin-left: -1%;
-    background-size: 115%;
+    background-size: 103%;
     background-image: url('Alloo/bg.gif');
     background-color: antiquewhite;
     background-repeat: no-repeat;
@@ -87,17 +87,16 @@ header{
 
 #footer{
     position: relative;
-    width: 102.5%;
-    height: 20%;
-    margin-left: -1%;
+    width: 105%;
+    height: 21%;
     background-color: #282b33;
 }
 
 #Musique{
     margin-left: 0.5%;
     font-family: Ipixel;
-    font-size: medium;
-    width: 30%;
+    font-size: 2000%;
+    width: 32%;
     height: 100%;
     float: left;
 }
@@ -111,10 +110,9 @@ p{
 
 #Skilsong{
     margin-right: 5%;
-    margin-top: 7%;
-    width: 47%;
-    height: 12%;
-
+    margin-top: 5%;
+    width: 30%;
+    height: 15%;
 }
 
 #Skilsong::-webkit-media-controls-panel{
@@ -126,8 +124,8 @@ p{
 
 #Pale{
     margin-top: 1%;
-    width: 46%;
-    height: 12%;
+    width: 35%;
+    height: 15%;
 }
 
 #Pale::-webkit-media-controls-panel{
@@ -139,8 +137,8 @@ p{
 
 #Snow{
     margin-top: 1%;
-    width: 47.5%;
-    height: 12%;
+    width: 35%;
+    height: 15%;
 }
 
 #Snow::-webkit-media-controls-panel{
@@ -152,8 +150,8 @@ p{
 
 #Stardust{
     margin-top: 1;
-    width: 45%;
-    height: 12%;
+    width: 35%;
+    height: 15%;
 }
 
 #Stardust::-webkit-media-controls-panel{
