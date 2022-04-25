@@ -25,7 +25,7 @@
             <div id="Musique">
                 <p>Musique de font : </p>
                 <font color="#a73354" style="font-size: 95%; margin-left:0%;">Bonebottom-<a id="credSkil" href="https://www.hollowknightsilksong.com/" target="_blank"><font style="font-size: 100%;" >Skilsong</font></a> OST : </font>
-                <audio controls id="Skilsong"> 
+                <audio controls id="Skilsong" > 
                     <source src="Musique/Bonebottom (Silksong OST Sample).mp3" type="audio/mp3">
                 </audio>
                 <font color="#c0c5c9" style="font-size: 85%; margin-left: 0%;">Pale Court-<a id="credHollow" href="https://www.hollowknight.com/" target="_blank"><font style="font-size: 100%;" >Hollow Knight</font></a> OST : </font>
@@ -65,6 +65,15 @@
             </div>
         </div>
         <script>
+            var Hornet = document.getElementById("Skilsong");
+            Hornet.volume = 0.15;
+            var King = document.getElementById("Pale");
+            King.volume = 0.20;
+            var Neige = document.getElementById("Snow");
+            Neige.volume = 0.15;
+            var Space = document.getElementById("Stardust");
+            Space.volume = 0.10;
+
             function HoverIcon(icon, iconplus) {
                 document.getElementById(icon).style.opacity = 0;
                 document.getElementById(iconplus).style.opacity=1;
