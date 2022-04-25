@@ -87,23 +87,23 @@ header{
 
 #footer{
     position: relative;
-    width: 105%;
-    height: 21%;
+    margin-left: -1%;
+    width: 102%;
+    height: 22%;
     background-color: #282b33;
 }
 
 #Musique{
     margin-left: 0.5%;
     font-family: Ipixel;
-    font-size: 2000%;
-    width: 32%;
+    font-size: medium;
+    width: 28%;
     height: 100%;
     float: left;
 }
 
 
 p{
-    margin-top: 3%;
     margin-left: 1%;
     margin-bottom: -4%;
   }
@@ -111,8 +111,8 @@ p{
 #Skilsong{
     margin-right: 5%;
     margin-top: 5%;
-    width: 30%;
-    height: 15%;
+    width: 40%;
+    height: 10%;
 }
 
 #Skilsong::-webkit-media-controls-panel{
@@ -124,8 +124,8 @@ p{
 
 #Pale{
     margin-top: 1%;
-    width: 35%;
-    height: 15%;
+    width: 40%;
+    height: 10%;
 }
 
 #Pale::-webkit-media-controls-panel{
@@ -137,8 +137,8 @@ p{
 
 #Snow{
     margin-top: 1%;
-    width: 35%;
-    height: 15%;
+    width: 40%;
+    height: 10%;
 }
 
 #Snow::-webkit-media-controls-panel{
@@ -150,8 +150,8 @@ p{
 
 #Stardust{
     margin-top: 1;
-    width: 35%;
-    height: 15%;
+    width: 40%;
+    height: 10%;
 }
 
 #Stardust::-webkit-media-controls-panel{
