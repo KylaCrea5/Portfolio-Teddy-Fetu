@@ -19,7 +19,9 @@
                 </ul>
             </nav>
 
-            <div id="Descri"></div>
+            <div id="Descri">
+                <img id="Boxy" src="Alloo/Box1.png">
+            </div>
 
             <div id="sousbout">
                 <a id="LienCV" href="Alloo/Curriculum Vitae.pdf" target="_blank" onmouseover="HoverIcon('CV','CVSouri')" onmouseout="PasHover('CV','CVSouri')">
@@ -87,6 +89,18 @@
             Neige.volume = 0.15;
             var Space = document.getElementById("Stardust");
             Space.volume = 0.10;
+            i=1;
+
+            function changeImage(){
+                var img = document.getElementById("Boxy");
+                i = i+1;
+
+                if(i==5){
+                    i=1;
+                }
+
+                img.src='Alloo/Box'+i+'.png';
+            }
 
             function HoverIcon(icon, iconplus) {
                 document.getElementById(icon).style.opacity = 0;
