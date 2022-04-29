@@ -377,9 +377,14 @@ h3{
     margin-top: -3%;
     height: 80%;
     width: 68%;
-    background-image: url("Alloo/Aboutme.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+}
+
+#Boxy{
+    margin-left: 8%;
+    margin-top: 13%;
+    width: 45%;
+    height: 40%;
+    position: absolute;
 }
 
 #Pour{
