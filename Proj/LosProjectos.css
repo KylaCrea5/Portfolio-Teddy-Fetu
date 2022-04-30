@@ -1,18 +1,18 @@
 @font-face {
     font-family: HardPixel;
-    src: url("/Font/HardPixel/Hardpixel.OTF");
+    src: url("../Font/HardPixel/Hardpixel.OTF");
 }
 @font-face {
     font-family: Ipixel;
-    src: url("/Font/i_pixel_u/I-pixel-u.ttf");
+    src: url("../Font/i_pixel_u/I-pixel-u.ttf");
 }
 @font-face {
     font-family: Mario;
-    src: url("/Font/mario_kart_ds/Mario-Kart-DS.ttf");
+    src: url("../Font/mario_kart_ds/Mario-Kart-DS.ttf");
 }
 @font-face {
     font-family: Goth;
-    src: url("/Font/gothicpixels/GothicPixels.ttf");
+    src: url("../Font/gothicpixels/GothicPixels.ttf");
 }
 
 body{
