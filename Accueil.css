@@ -575,6 +575,26 @@ h3{
     margin-top: 20%;
 }
 
+#Cloud{
+    position: absolute;
+    transition: opacity 300ms;
+    width: 17%;
+    height: 23%;
+    margin-left: 50.5%;
+    margin-top: 20%;
+}
+
+#CloudSouri{
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms;
+    width: 22%;
+    height: 30%;
+    margin-left: 50.5%;
+    margin-top: 20%;
+}
+
 #Pix{
     position: absolute;
     transition: opacity 300ms;
