@@ -15,6 +15,11 @@
     src: url("../Font/gothicpixels/GothicPixels.ttf");
 }
 
+@font-face {
+    font-family: Allegian;
+    src: url("../Font/Algerian/Algerian_Regular.ttf");
+}
+
 body{
     font-size: 20%;
     height: 150%;
@@ -60,6 +65,13 @@ h1{
     float: left;
     font-size: 3.7vh;
     font-family: HardPixel;
+    position: absolute;
+}
+
+h2{
+    float: left;
+    font-size: 7.5vh;
+    font-family: Allegian;
     position: absolute;
 }
 
