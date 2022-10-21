@@ -37,7 +37,7 @@ body{
     float: left;
     width: 65%;
     height: 100%;
-    margin-top: -5%;
+    margin-top: -2%;
     margin-left: 17%;
 }
 
@@ -100,7 +100,7 @@ h2{
     pointer-events: none;
     opacity: 0;
     transition: opacity 300ms;
-    width: 15%;
+    width: 17%;
 }
 
 #Jar{
@@ -114,5 +114,5 @@ h2{
     pointer-events: none;
     opacity: 0;
     transition: opacity 300ms;
-    width: 15%;
+    width: 17%;
 }
