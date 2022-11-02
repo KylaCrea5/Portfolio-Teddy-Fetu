@@ -623,3 +623,21 @@ h3{
     margin-top: 35.5%;
     margin-left: 23%;
 }
+
+#textSkil{
+    font-size: 95%;
+    margin-left:0%;
+}
+
+@media screen and (max-width: 50%){
+    #textSkil{
+        font-size: 90px;
+        color:aqua;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #textSkil{
+        font-size: 5;
+    }
+}
